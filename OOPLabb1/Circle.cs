@@ -8,16 +8,26 @@ namespace OOPLabb1
     {
 
         float pi = 3.141f;
-        int Radius;
+        double Radius;
 
-        public Circle(int radius)
+        public Circle(double radius)
         {
             Radius = radius;
         }
 
         public void getArea()
         {
-            Console.WriteLine(Radius * Radius * pi);
+            Console.WriteLine("Cirkelns area är {0 :f2} cm^2", Radius * Radius * pi);
+        }
+
+        public void getCircumference()
+        {
+            Console.WriteLine("Cirkelns omkrets är {0:f2} cm", (2 * Radius) * pi);
+        }
+
+        public void getVolume()
+        {
+            Console.WriteLine("Sfärens volym är {0:f2} l.", ((4 * pi * Math.Pow(Radius, 3)) / 3)/1000);
         }
     }
 }

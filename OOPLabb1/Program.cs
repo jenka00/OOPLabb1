@@ -12,7 +12,15 @@ namespace OOPLabb1
 
             firstCircle.getArea();
 
+            firstCircle.getCircumference();
+
+            firstCircle.getVolume();
+
             secondCircle.getArea();
+                   
+            secondCircle.getCircumference();
+
+            secondCircle.getVolume();
         }
     }
 }
