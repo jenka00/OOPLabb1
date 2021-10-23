@@ -17,10 +17,15 @@ namespace OOPLabb1
             firstCircle.getVolume();
 
             secondCircle.getArea();
-                   
+
             secondCircle.getCircumference();
 
             secondCircle.getVolume();
+
+            Triangle firstTriangle = new Triangle(5, 10);
+
+            firstTriangle.GetTriangleArea();
         }
+
     }
 }
