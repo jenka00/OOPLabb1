@@ -15,19 +15,23 @@ namespace OOPLabb1
             Radius = radius;
         }
 
-        public void getArea()
+        public double getArea()
         {
-            Console.WriteLine("Cirkelns area är {0 :f2} cm^2", Radius * Radius * pi);
+            double circleArea = Radius * Radius * pi;
+            return circleArea;
         }
 
-        public void getCircumference()
+        public double getCircumference()
         {
-            Console.WriteLine("Cirkelns omkrets är {0:f2} cm", (2 * Radius) * pi);
+            double circleCircum = (2 * Radius) * pi;
+            return circleCircum;
         }
 
-        public void getVolume()
+        public double getVolume()
         {
-            Console.WriteLine("Sfärens volym är {0:f2} l.", ((4 * pi * Math.Pow(Radius, 3)) / 3)/1000);
+            double circleVol = ((4 * pi * Math.Pow(Radius, 3)) / 3) / 1000;
+            return circleVol;
+            
         }
     }
 }

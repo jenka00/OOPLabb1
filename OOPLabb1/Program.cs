@@ -10,21 +10,21 @@ namespace OOPLabb1
 
             Circle secondCircle = new Circle(6);
 
-            firstCircle.getArea();
+            Console.WriteLine($"Första cirkelns area är {firstCircle.getArea():f2} cm^2");
 
-            firstCircle.getCircumference();
+            Console.WriteLine($"Första cirkelns omkrets är {firstCircle.getCircumference():f2} cm");
 
-            firstCircle.getVolume();
+            Console.WriteLine($"Första sfärens volym är {firstCircle.getVolume():f2} l");
 
-            secondCircle.getArea();
+            Console.WriteLine($"Andra cirkelns area är {secondCircle.getArea():f2} cm^2");
 
-            secondCircle.getCircumference();
+            Console.WriteLine($"Andra cirkelns omkrets är {secondCircle.getCircumference():f2} cm");
 
-            secondCircle.getVolume();
+            Console.WriteLine($"Andra sfärens volym är {secondCircle.getVolume():f2} l");
 
             Triangle firstTriangle = new Triangle(5, 10);
 
-            firstTriangle.GetTriangleArea();
+            Console.WriteLine($"Triangelns area är {firstTriangle.GetTriangleArea():f2} cm^2");
         }
 
     }

@@ -16,10 +16,11 @@ namespace OOPLabb1
             this.triangleLenght = TriangleLeght;
         }
 
-        public void GetTriangleArea()
+        public double GetTriangleArea()
         {
            
-            Console.WriteLine("Triangelns area är {0:f2} cm^2", (this.triangleLenght * this.triangleHeight) / 2);
+           double triangleArea = (this.triangleLenght * this.triangleHeight) / 2;
+           return triangleArea;
         }
     }
 }
